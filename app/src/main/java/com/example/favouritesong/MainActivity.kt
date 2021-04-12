@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
         var counter = 0;
 
         button.setOnClickListener {
+            if(counter==0)
+                textView.text=""
             try {
                 textView.append(lyrics.get(counter) + "\n")
             } catch (e: Exception) {
