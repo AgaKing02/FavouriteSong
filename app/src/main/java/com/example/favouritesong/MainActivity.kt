@@ -28,17 +28,13 @@ class MainActivity : AppCompatActivity() {
                 textView.append(lyrics.get(counter) + "\n")
             } catch (e: Exception) {
                 button.text = "Finished"
-            } finally {
-                counter++;
             }
+                counter++;
 
         }
 
     }
 
-    fun readFileAsLinesUsingBufferedReader(fileName: String): List<String> {
-        return File(fileName).bufferedReader().readLines();
-    }
 
     fun setUp() {
         button = findViewById(R.id.start_button) as Button
