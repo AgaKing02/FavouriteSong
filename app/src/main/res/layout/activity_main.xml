@@ -26,13 +26,12 @@
                 android:id="@+id/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Song Lyrics" />
+                android:text="Желсіз түнде жарық ай!" />
 
             <TextView
                 android:id="@+id/start"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Start" />
+                android:layout_height="wrap_content" />
         </LinearLayout>
     </ScrollView>
 
@@ -42,6 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:text="Start"
+        android:backgroundTint="@color/song"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
